@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# Data and models: never committed (see AGENTS.md)
+data/
+models/
+*.csv
+*.parquet
+*.zip
+*.txt.model
+
+# Secrets, IDE, OS
+.env
+.idea/
+.vscode/
+.DS_Store
